@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AddressBook</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_edit">Изменить</string>
+    <string name="btn_remove">Удалить</string>
+    <string name="btn_export">Экспортировать</string>
+    <string name="alarm_message">Позвонить</string>
+    <string name="btn_notify_off">Установить напоминание</string>
+    <string name="alarmOFFbtn">Выключить</string>
+    <string name="btn_geo">Получить геолокацию</string>
+    <string name="btn_photo">Сделать снимок</string>
+</resources>

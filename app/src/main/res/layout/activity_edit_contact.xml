@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditContactActivity">
+
+
+    <TextView
+        android:id="@+id/field_static_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/field_static_patronymic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отчество:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_patronymic"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/field_static_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Фамилия:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_last_name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/field_static_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Телефон:"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/edit_phone_number"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/bt_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setBtNotify"
+        android:text="@string/btn_notify_off" />
+
+</LinearLayout>
